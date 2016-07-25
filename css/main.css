@@ -1,16 +1,15 @@
-div {
-		width: 500px;
-		height: 150px;
-		background: #FFE599;
-		border: 10px solid black;
-		
+.padre {
+	margin: 100px;
+	padding: 50px;
+	background: #FFE599;
+	border: 5px solid black;
+	
 
-	}
+}
 
-	p {
-		box-sizing: border-box;
-		border:1px dashed black;
-		margin: 40px 20px 20px 20px;
-		padding: 20px 180px 20px 180px;
-		background: white;
-		}
+.hijo {
+	border:1px dashed black;
+	padding: 20px;
+	background: white;
+	text-align: center;
+}
